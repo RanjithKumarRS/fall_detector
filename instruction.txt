@@ -1,0 +1,49 @@
+git clone the repo
+
+install python 3.10 or below 3.10
+
+install pip updated version 
+
+//after install pip run comment to install all the dependencies still some modules not installed install it manually
+pip install -r requirements.txtgit 
+
+install pytourch ref:https://pytorch.org/ use pip to install comment: pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+
+if import cv2 error occures
+pip install opencv-python install this it will fine now!
+
+if ur using cpu use fload data type or if you use GPU use half datatype change this in line number 30, 82
+
+then need to config telegram 
+
+telegram token: 
+To get telegram token need to create new bot 
+
+Go to telegram and search for BotFather :
+1. start
+2. /newbot 
+3. Fall detector -name of the bot
+4. add user name 
+Then get token and add in line no :17
+
+
+Then you need receiver_id to get that:
+
+Go to telegram and search for @myidbot :
+1. start
+2. /getid
+Then you will get reciver_id congin in line no: 19
+
+To run Project need to run server first
+
+1.python -m http.server 3000
+2.python yolov7_pose_estimationvideo.py
+
+
+
+
+
+
+
+
+
